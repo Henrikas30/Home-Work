@@ -7,7 +7,7 @@ namespace Pamokos1
         static void Main()
         {
             //Lesson 3
-
+            /*
             Console.WriteLine("Irasyti tris skaicius!");
             int pirmas = Convert.ToInt32(Console.ReadLine());
             int antras = Convert.ToInt32(Console.ReadLine());
@@ -47,6 +47,43 @@ namespace Pamokos1
             {
                 Console.WriteLine("4");
             }
+            */
+
+
+            Console.WriteLine("Irasyti tris skaicius!");
+            int pirmas = Convert.ToInt32(Console.ReadLine());
+            int antras = Convert.ToInt32(Console.ReadLine());
+            int trecias = Convert.ToInt32(Console.ReadLine());
+
+            switch (pirmas)
+            {
+                case 1:
+                    Console.WriteLine(pirmas + antras +trecias);
+                    break;
+                
+                case 2:
+                    Console.WriteLine(pirmas - trecias);
+                    break;
+                
+                case 3:
+                    Console.WriteLine(antras * trecias);
+                    break;
+
+                default:
+                    Console.WriteLine("Error!");
+                    break;
+
+            }
+            
+            
+
+
+
+
+
+
+
+
 
         }
     }
