@@ -49,7 +49,7 @@ namespace Pamokos1
             }
             */
 
-
+            /*
             Console.WriteLine("Irasyti tris skaicius!");
             int pirmas = Convert.ToInt32(Console.ReadLine());
             int antras = Convert.ToInt32(Console.ReadLine());
@@ -58,7 +58,7 @@ namespace Pamokos1
             switch (pirmas)
             {
                 case 1:
-                    Console.WriteLine(pirmas + antras +trecias);
+                    Console.WriteLine(pirmas + antras + trecias);
                     break;
                 
                 case 2:
@@ -74,16 +74,10 @@ namespace Pamokos1
                     break;
 
             }
+            */
+
+            Console.WriteLine("fgf");
             
-            
-
-
-
-
-
-
-
-
 
         }
     }

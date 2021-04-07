@@ -2,7 +2,7 @@
 
 namespace Pamokos1
 {
-    class Program2
+    class Program4
     {
         static void Main()
         {
