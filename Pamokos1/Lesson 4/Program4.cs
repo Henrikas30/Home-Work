@@ -4,7 +4,7 @@ namespace Pamokos1
 {
     class Program4
     {
-        static void Main()
+         static void Main()
         {
             //for (int i = 0; i < 10 ; i++) i+=5
             //{}
@@ -101,7 +101,7 @@ namespace Pamokos1
                  int windowSeatsTaken = 0;
 
             */
-
+            /*
             int sum = 0;
             for (int i = 1; i <= 1000; i++)
             {
@@ -119,7 +119,7 @@ namespace Pamokos1
             }
 
             Console.WriteLine($"Vsio: {sum}");
-
+            */
         }
     }
 }

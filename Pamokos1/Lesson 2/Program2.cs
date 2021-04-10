@@ -2,7 +2,7 @@
 
 namespace Pamokos1
 {
-    class Program4
+    class Program2
     {
         static void Main()
         {
@@ -100,7 +100,7 @@ namespace Pamokos1
 
             //uzduotis5
             
-            string restartCheck;
+            
             Console.WriteLine("Irasyti studento ivertinimo bala: ");
             int balas = Convert.ToInt32(Console.ReadLine());
 

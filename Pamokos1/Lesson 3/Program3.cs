@@ -76,7 +76,7 @@ namespace Pamokos1
             }
             */
 
-            Console.WriteLine("fgf");
+            Console.WriteLine("trecia");
             
 
         }
