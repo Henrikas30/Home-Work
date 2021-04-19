@@ -9,37 +9,43 @@ namespace Pamokos1.BigHomeWork1
     class BigHomeWork1
     {
          static void Main()
-        {
+         {
+           
             Console.WriteLine("Ivesk skaiciu: ");
+
             string eilute = Console.ReadLine();
-            bool skaiciusArbaNe = ArSkaicius(eilute);
+            Reziai();
+            
+
+
+                bool skaiciusArbaNe = ArSkaicius(eilute);
 
             if (skaiciusArbaNe)
             {
-                Console.WriteLine("skaicius");
+                Console.WriteLine("Skaicius");
 
             }
             else
             {
-                Console.WriteLine("neskaicius");
+                Console.WriteLine("Blogas skaicius");
             }
 
 
-        }
+         }
 
         static bool ArSkaicius(string galSkaicius)
         {
             bool rezultatas = true;
 
-            
+
 
             for (int i = 0; i < galSkaicius.Length; i++)
             {
                 char simbolis = galSkaicius[i];
 
-                Console.WriteLine("i=" + i);
+                
 
-                if (simbolis == '0')
+                if (simbolis == '0' && i == 1)
                 {
                     Console.WriteLine(simbolis);
                 }
@@ -93,5 +99,20 @@ namespace Pamokos1.BigHomeWork1
 
             return rezultatas;
         }
+        static bool Reziai(int reziai2)
+        {
+            bool tarpSkaiciu;
+
+            if (reziai2 >= -9 || reziai2 <= 9)
+            {
+                tarpSkaiciu = true;
+            }
+            else
+            {
+                tarpSkaiciu = false;
+            }
+            return tarpSkaiciu;
+        }
+
     }
 }
